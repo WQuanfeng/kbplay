@@ -1,0 +1,45 @@
+PODS:
+  - BIJKPlayer (0.7.16)
+  - EZOpenSDK (5.13.4)
+  - fijkplayer (0.11.0):
+    - BIJKPlayer (~> 0.7.16)
+    - Flutter
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - kbplay (0.0.1):
+    - EZOpenSDK (= 5.13.4)
+    - Flutter
+
+DEPENDENCIES:
+  - fijkplayer (from `.symlinks/plugins/fijkplayer/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - kbplay (from `.symlinks/plugins/kbplay/ios`)
+
+SPEC REPOS:
+  trunk:
+    - BIJKPlayer
+    - EZOpenSDK
+
+EXTERNAL SOURCES:
+  fijkplayer:
+    :path: ".symlinks/plugins/fijkplayer/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  kbplay:
+    :path: ".symlinks/plugins/kbplay/ios"
+
+SPEC CHECKSUMS:
+  BIJKPlayer: 4c5d66e5cb99ae5bade6f22a4fcc031722a81c64
+  EZOpenSDK: 9d84bd7de7a21bc3f479d06dbf4fdd7ad35cc12e
+  fijkplayer: 8b6d864948dc28e6e07248ed4fce61a7467db4df
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  kbplay: b33892b51ad451d6894079513ef923281f53d00a
+
+PODFILE CHECKSUM: 4bb0d5af7b0a7a18570b26cd09a55bf9a905f81f
+
+COCOAPODS: 1.15.2
